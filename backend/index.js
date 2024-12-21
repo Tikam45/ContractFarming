@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 4000;
 
 app.use(cors(
     {
-        origin: "https://contract-farming-six.vercel.app/"
+        origin: "https://contract-farming-backend-kxorgyge8-tikam-s-projects.vercel.app"
     }
 ));
 
