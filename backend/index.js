@@ -9,9 +9,7 @@ const PORT = process.env.PORT || 4000;
 
 app.use(cors(
     {
-        origin: ["https://contract-farming-application.vercel.app/"],
-        methods: ["POST" , "GET", "PUT", "DELETE"],
-        credentials: true,
+        origin: "https://contract-farming-application.vercel.app/"
     }
 ));
 
