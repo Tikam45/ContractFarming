@@ -9,7 +9,7 @@ exports.connect = () =>{
     })
     .then(() => console.log("DB is connected Successfully"))
     .catch((error) => {
-        console.log("There is a issue during Database connection");
+        console.log("There is a issue during Database connection", process.env.MONGODB_URL);
         console.log(error);
         console.log("Hello ji ", process.env.MONGODB_URL);
         process.exit(1);
