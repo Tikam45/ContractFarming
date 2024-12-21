@@ -1,4 +1,4 @@
-const BASE_URL = "https://contract-farming-eosin.vercel.app/"
+const BASE_URL = "http://localhost:4000"
 
 export const endpoints = {
     SENDOTP_API : BASE_URL + "/auth/sendotp",
