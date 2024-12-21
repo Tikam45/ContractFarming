@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 4000;
 
 app.use(cors(
     {
-        origin: ["https://contract-farming-eosin.vercel.app"],
+        origin: ["https://contract-farming-application-zdbu66fca-tikam-s-projects.vercel.app/"],
         methods: ["POST" , "GET", "PUT", "DELETE"],
         credentials: true,
     }
