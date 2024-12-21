@@ -1,4 +1,4 @@
-const BASE_URL = "https://contract-farming-backend-kxorgyge8-tikam-s-projects.vercel.app"
+const BASE_URL = "https://contract-farming-backend-fzxvwbkio-tikam-s-projects.vercel.app"
 
 export const endpoints = {
     SENDOTP_API : BASE_URL + "/auth/sendotp",
