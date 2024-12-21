@@ -7,6 +7,14 @@ const path = require("path");
 require("dotenv").config();
 const PORT = process.env.PORT || 4000;
 
+app.use(cors(
+    {
+        origin: ["https://contract-farming-eosin.vercel.app"],
+        methods: ["POST" , "GET", "PUT", "DELETE"],
+        credentials: true,
+    }
+));
+
 const cookieParser = require("cookie-parser");
 app.use(cookieParser());
 
