@@ -29,7 +29,7 @@ require("./config/database").connect();
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 const routes = require("./routes/route");
-app.use("/api", routes);
+app.use("/api/", routes);
 
 app.listen(PORT, () =>{
     console.log(`App is listening at ${PORT}`)
